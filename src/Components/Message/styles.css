@@ -1,0 +1,94 @@
+.h1Notificacion{
+  width: 100%;
+  
+}
+
+.contenedorPrincipalNotificacion{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.container-message {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7); 
+    display: flex;
+    justify-content: center;
+    align-items: self-end;
+  }
+  .window-message {
+    background: #fff; 
+    padding: 3rem;
+    position: relative;
+    max-width: 500px;
+    width: 100%;
+    text-align: center;
+  }
+  .window-message span {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  .window-message h1 {
+    margin-top: 0;
+    padding-bottom: 35px;
+  }
+  .information {
+    display: flex;
+  }
+  .information figure {
+    flex: 1;
+    text-align: left;
+    padding-right: 20px;
+  }
+  .information img {
+    width: 150px;
+    height: 150px;
+  }
+  .food {
+    flex: 1;
+    text-align: left;
+  }
+
+  .food button{
+    padding: 5px;
+    border: none;
+    outline: none;
+  }
+
+  .food p {
+    margin: 0;
+  }
+  .name{
+    font-weight: 600;
+    padding-bottom: 20px;
+  }
+  
+  .contenedorTablaClasificacion{
+  width: 100%;
+  height: 320px;
+  overflow-y:scroll;
+  margin: 2.5rem;
+  margin-bottom:  0;
+  }
+
+  .contenedorTablaClasificacion h2{
+    color: white;
+    
+  }
+  
+  .contenedorTablaClasificacion::-webkit-scrollbar{
+    border-radius: 10px;
+    width: 5px;
+  }
+  .contenedorTablaClasificacion::-webkit-scrollbar-thumb{
+    border-radius: 10px;
+    
+    background-color: transparent;
+  }

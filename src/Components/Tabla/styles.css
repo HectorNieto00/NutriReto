@@ -1,0 +1,113 @@
+
+.app-container {
+    background: linear-gradient(135deg, #78e08f, #fad02e); 
+    height: 100vh;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    transition: opacity 0.5s ease-in-out;
+    padding: 2rem;
+  }
+
+  .shape {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #ecf0f1;
+    opacity: 0.8;
+  }
+  .input-name {
+    width: 400px;
+    padding: 15px;
+    outline: none;
+    border: none;
+  }
+  
+  .container-button {
+    padding-top: 60px;
+  }
+  .start-button {
+    padding: 15px 30px;
+    font-size: 1.5rem;
+    background-color: #3498db;
+    color: #fff; 
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+  }
+  
+  .start-button:hover {
+    background-color: #2980b9; 
+    transform: scale(1.05);
+  }
+  
+  .animated-text {
+    font-size: 2rem;
+    color: #2c3e50;  
+    
+  }
+
+  .app-container-table-principal{
+    background-image: url('./imagenFondo.jpeg');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .app-container-table{
+    width: 90%;
+    height: 90vh;
+    background-color: white;
+    box-shadow: 0 0 9px 5px rgba(0, 0, 0, 0.181);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    overflow: hidden;
+    padding: 2rem;
+    overflow-y: auto;
+  }
+
+  .animated-text-tabla{
+    width: 100%;
+    color: black;
+    
+  }
+
+  .tablaClasificacion thead tr th{
+    background-color: rgba(12, 116, 128, 0.678);
+    color: white;
+    padding: 20px;
+  }
+  
+  .tablaClasificacion tbody tr td{
+  
+    padding: 20px;
+  }
+
+  .app-container-table-inicio{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem;
+    padding-bottom: 10px;
+  }
+
+  .start-button-regresar{
+    padding: 10px;
+    border: none;
+    outline: none;
+    background-color: rgb(74, 128, 155);
+    color: white;
+    font-weight: bold;
+  }
